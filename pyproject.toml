@@ -1,0 +1,18 @@
+[project]
+name = "postgres-store-analyzer"
+version = "0.1.0"
+description = "MCP Postgres server for non-technical database analysis"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp>=0.4.1",
+    "psycopg[binary]>=3.2.1",
+    "python-dotenv>=1.0.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = false

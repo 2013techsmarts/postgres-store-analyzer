@@ -1,0 +1,13 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: postgres-mcp-store
+    ports:
+      - "5435:5432"
+    environment:
+      POSTGRES_DB: store
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    restart: unless-stopped
