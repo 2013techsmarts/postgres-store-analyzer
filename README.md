@@ -1,6 +1,6 @@
 # PostgreSQL MCP Server (Store Analyzer)
 
-This is a Model Context Protocol (MCP) server built with **Python** and **FastMCP** to connect to a PostgreSQL database containing a retail store dataset. It exposes database inspection and querying tools to LLM clients (like Claude Desktop, Cursor, or LibreChat), allowing non-technical team members to analyze database tables, schemas, and query data using natural language.
+This is a Model Context Protocol (MCP) server built with **Python** and **FastMCP** to connect to a PostgreSQL database containing a retail store dataset. It exposes database inspection and querying tools to MCP clients (like Claude Desktop, Cursor, or LibreChat), allowing non-technical team members to analyze database tables, schemas, and query data using natural language.
 
 ![Postgres MCP Server Architecture](./mcp_architecture.png)
 
