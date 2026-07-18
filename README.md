@@ -6,7 +6,7 @@ This is a Model Context Protocol (MCP) server built with **Python** and **FastMC
 
 ---
 
-## 🛠️ Features
+## Features
 
 * **Schema Auto-Discovery**: Let AI explore tables (`list_tables`) and inspect column constraints/descriptions (`describe_table`).
 * **Query Safeguard**: Automatically rejects any mutating queries (`INSERT`, `UPDATE`, `DELETE`, `DROP`, etc.) at the server layer.
@@ -15,7 +15,7 @@ This is a Model Context Protocol (MCP) server built with **Python** and **FastMC
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```text
 mcp/
@@ -32,7 +32,7 @@ mcp/
 
 ---
 
-## 🚀 Quick Start (Local Demo)
+## Quick Start (Local Demo)
 
 ### 1. Prerequisites
 Ensure you have the following installed:
@@ -75,7 +75,7 @@ This will output a localhost URL (e.g. `http://localhost:5173`). Open this URL i
 
 ---
 
-## 💬 Integrating with LLM Clients (e.g. Claude Desktop)
+## Integrating with LLM Clients (e.g. Claude Desktop)
 
 To enable your team to query the database using natural language:
 
