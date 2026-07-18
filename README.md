@@ -121,7 +121,7 @@ Paste the following JSON block inside the file. If the file is empty, paste the 
 
 ---
 
-## 🙋 Example Prompts for Non-Technical Users
+## Example Prompts for Non-Technical Users
 
 Now you can ask the AI questions like:
 * *"What tables are in our store database?"*
@@ -132,7 +132,7 @@ Now you can ask the AI questions like:
 
 ---
 
-## 🔒 Security Best Practices
+## Security Best Practices
 
 1. **Database-Level Restrictions (Recommended)**: In production environments, always connect the MCP server using a **read-only database role**. You can create one in PostgreSQL with:
    ```sql
